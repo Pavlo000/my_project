@@ -12,7 +12,7 @@ function App() {
         <p>
           {API_URL}
         </p>
-        {process.env.NODE_ENV}
+        {process.env.REACT_APP_TEST}
       </header>
     </div>
   );
